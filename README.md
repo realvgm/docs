@@ -1,8 +1,10 @@
 # RCA
+## DICOMweb
+### WADO-RS
 url: http://localhost:8080/rest/xxx/studies/uid/series/uid/instances/uid/
 
-Accept:	*/*
+1. Accept:	*/*
+- RETURN: DICOM S
 
-RETURN: DICOM S
-
-![image](https://github.com/realvgm/docs/assets/35485242/633cfb37-3523-4a3b-863b-7b53d9889310)
+2. Accept: application/octet-stream
+- RETURN: DICOM S
